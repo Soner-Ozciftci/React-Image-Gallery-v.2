@@ -6,7 +6,7 @@ function App() {
   return (
   <>
   <h1 className='mainH1'>Images Gallery</h1>
-  
+  <Gallery/>
   </>
 
   );
