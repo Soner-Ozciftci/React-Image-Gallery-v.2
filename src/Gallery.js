@@ -18,7 +18,7 @@ setModel(true)
     <>
     <div className={model ?  "model open" : "model"}>
 <img src={tempimgSrc}/>
-<FaWindowClose onClick={()=> setModel(false)} />
+<FaWindowClose onClick={()=> setModel(false)} className='x'/>
     </div>
 
     <div className='gallery'>
